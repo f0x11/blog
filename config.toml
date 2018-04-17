@@ -1,0 +1,36 @@
+baseURL = "https://f0x11.org/"
+languageCode = "zh-cn"
+title = "七哥的随心谈"
+theme = "hugo-nuo"
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Works"
+  weight = 20
+  identifier = "works"
+  url = "https://github.com/f0x11"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+
+# Add your own params here
+[params]
+  author = "Ritchie Zhu"
+  avatar = "/img/avatar.jpg"
+  seotitle = "f0x11"
+  subtitle = "随便"
+  description = "好"
+  paginate = 10
+
+  email = "f0x11@gmail.com"
+  github = "f0x11"
+#  wechat= "/img/qrcode.jpg"
